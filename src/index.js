@@ -22,7 +22,7 @@ export const fn = ({ term, actions, display }) => {
   // eslint-disable-next-line no-var
   var search = (searchTerm) => {
     const q = encodeURIComponent(searchTerm)
-    actions.open(`https://www.google.com/search?newwindow=1&q=${q}&cad=h`)
+    actions.open(`https://search.brave.com?q=${q}&source=cerebro`)
     actions.hideWindow()
   }
 

@@ -1,6 +1,6 @@
-# Cerebro-Google
+# Cerebro-Brave-Search
 
-> A Cerebro plugin to look up Google
+> A Cerebro plugin to search using Brave Search
 
 ![](screenshot.png)
 
@@ -9,7 +9,7 @@ Type any word you'd like to search!
 
 ## Features
 
-* Get related content suggestions from Google
+* Get related content suggestions from Brave Search
 
 ## Related
 

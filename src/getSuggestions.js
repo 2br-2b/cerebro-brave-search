@@ -1,15 +1,16 @@
 import { memoize } from 'cerebro-tools'
 
 /**
- * Get google suggestions for entered query
+ * Get DuckDuckGo suggestions for entered query
+ * TODO: change DDG suggestions to Brave suggestions
  * @param  {String} query
  * @return {Promise}
  */
 const getSuggestions = (query) => {
-  const url = `http://suggestqueries.google.com/complete/search?client=firefox&q=${query}`
+  const url = `https://duckduckgo.com/ac/?q=${query}`
   return fetch(url)
     .then(response => response.json())
-    .then(response => response[1] || [])
+    .then(items => items.map(i => i.phrase))
 }
 
 

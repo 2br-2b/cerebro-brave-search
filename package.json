@@ -1,13 +1,13 @@
 {
-  "name": "cerebro-google",
+  "name": "cerebro-brave-search",
   "version": "1.0.1",
-  "description": "Google search plugin from cerebro",
+  "description": "Brave Search plugin from cerebro",
   "license": "MIT",
-  "repository": "KELiON/cerebro-google",
+  "repository": "2br-2b/cerebro-brave-search",
   "author": {
-    "name": "Alexandr Subbotin",
-    "email": "kelionweb@gmail.com",
-    "url": "asubbotin.ru"
+    "name": "John Wuller",
+    "email": "847785bd-d466-47cd-a536-eae4096d241d@anonaddy.me",
+    "url": "codegito.xyz"
   },
   "engines": {
     "node": ">=4"
@@ -22,7 +22,7 @@
   "keywords": [
     "cerebro",
     "cerebro-extracted-plugin",
-    "google",
+    "brave",
     "search"
   ],
   "devDependencies": {
